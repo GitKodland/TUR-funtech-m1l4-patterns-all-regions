@@ -1,37 +1,37 @@
 // text.js
 const TEXT = {
-  welcome: "Добро пожаловать!",
-  intro: "Собери узоры и стань мастером паттернов!",
-  start: "Начать игру",
+  welcome: "Welcome!",
+  intro: "Collect the patterns and become a master of them!",
+  start: "Start Game",
 
-  title: "Составь узор",
-  rulesTitle: "Правила игры:",
+  title: "Recreate the pattern",
+  rulesTitle: "How to Play:",
   rules: [
-    "Перетаскивайте элементы из левого окна в центральное поле.",
-    "Составьте точно такой же узор, как показан справа.",
-    "Нажмите «Проверить», когда будете готовы.",
-    "Попробуйте собрать узор как можно быстрее!",
-    "Чтобы удалить фигуру, кликните по ней."
+    "Drag elements from the left panel to the center field.",
+    "Recreate the exact pattern shown on the right.",
+    "Click 'Check' when ready.",
+    "Try to complete the pattern as fast as possible!",
+    "To remove a placed shape, click on it in the workspace."
   ],
-  levelPrefix: "Уровень",
+  levelPrefix: "Level",
 
   buttons: {
-    check: "Проверить",
-    reset: "Начать заново",
-    contrast: "Режим контраста",
-    next: "Следующий уровень",
-    restart: "Начать сначала",
-    ok: "Ок"
+    check: "Check",
+    reset: "Reset Level",
+    contrast: "Contrast Mode",
+    next: "Next level",
+    restart: "Restart",
+    ok: "Ok"
   },
 
   modals: {
-    successTitle: "Отлично!",
+    successTitle: "Awesome!",
     successImg: "assets/welldone.gif",
-    failTitle: "Попробуй снова!",
+    failTitle: "Try again!",
     failImg: "assets/bed.gif",
-    finalTitle: "Поздравляем!",
-    finalText: "Вы прошли все уровни!"
+    finalTitle: "Congratulations!",
+    finalText: "You’ve completed all the levels!"
   },
 
-  timerLabel: "Время"
+  timerLabel: "Time"
 };
