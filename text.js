@@ -1,37 +1,37 @@
-// text.js
+// text.js 
 const TEXT = {
-  welcome: "Welcome!",
-  intro: "Collect the patterns and become a master of them!",
-  start: "Start Game",
+  welcome: "Hoş Geldiniz!",
+  intro: "Desenleri topla ve onların ustası ol!",
+  start: "Oyuna Başla",
 
-  title: "Recreate the pattern",
-  rulesTitle: "How to Play:",
+  title: "Deseni Yeniden Oluştur",
+  rulesTitle: "Nasıl Oynanır:",
   rules: [
-    "Drag elements from the left panel to the center field.",
-    "Recreate the exact pattern shown on the right.",
-    "Click 'Check' when ready.",
-    "Try to complete the pattern as fast as possible!",
-    "To remove a placed shape, click on it in the workspace."
+    "Elementleri sol panelden orta alana sürükleyin.",
+    "Sağda gösterilen desenin aynısını oluşturun.",
+    "Hazır olduğunuzda 'Kontrol Et' butonuna tıklayın.",
+    "Deseni olabildiğince hızlı tamamlamaya çalışın!",
+    "Yerleştirdiğiniz bir şekli kaldırmak için çalışma alanında üzerine tıklayın."
   ],
-  levelPrefix: "Level",
+  levelPrefix: "Seviye",
 
   buttons: {
-    check: "Check",
-    reset: "Reset Level",
-    contrast: "Contrast Mode",
-    next: "Next level",
-    restart: "Restart",
-    ok: "Ok"
+    check: "Kontrol Et",
+    reset: "Seviyeyi Sıfırla",
+    contrast: "Kontrast Modu",
+    next: "Sonraki Seviye",
+    restart: "Yeniden Başlat",
+    ok: "Tamam"
   },
 
   modals: {
-    successTitle: "Awesome!",
-    successImg: "assets/welldone.gif",
-    failTitle: "Try again!",
-    failImg: "assets/bed.gif",
-    finalTitle: "Congratulations!",
-    finalText: "You’ve completed all the levels!"
+    successTitle: "Harika!",
+    successImg: "assets/welldone.gif", 
+    failTitle: "Tekrar Dene!",
+    failImg: "assets/bed.gif", 
+    finalTitle: "Tebrikler!",
+    finalText: "Tüm seviyeleri tamamladınız!"
   },
 
-  timerLabel: "Time"
+  timerLabel: "Süre"
 };
