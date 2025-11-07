@@ -1,17 +1,17 @@
 // text.js 
 const TEXT = {
   welcome: "Hoş Geldiniz!",
-  intro: "Desenleri topla ve onların ustası ol!",
+  intro: "Örüntüleri topla ve onların ustası ol!",
   start: "Oyuna Başla",
 
-  title: "Deseni Yeniden Oluştur",
+  title: "Örüntüyü Yeniden Oluştur",
   rulesTitle: "Nasıl Oynanır:",
   rules: [
-    "Elementleri sol panelden orta alana sürükleyin.",
-    "Sağda gösterilen desenin aynısını oluşturun.",
+    "Sol paneldeki ögeleri merkez alana sürükleyin.",
+    "Sağ panelde gösterilen örüntünün aynısını yeniden oluşturun.",
     "Hazır olduğunuzda 'Kontrol Et' butonuna tıklayın.",
-    "Deseni olabildiğince hızlı tamamlamaya çalışın!",
-    "Yerleştirdiğiniz bir şekli kaldırmak için çalışma alanında üzerine tıklayın."
+    "Örüntüyü olabildiğince hızlı tamamlamaya çalışın!",
+    "Eklenmiş şekli kaldırmak için merkez alanda üstüne tıklayın."
   ],
   levelPrefix: "Seviye",
 
